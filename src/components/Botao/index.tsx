@@ -4,10 +4,12 @@ class Botao extends React.Component {
     render() {
         const estaAtivo = false;
         const styles = {
-            backgroundColor: estaAtivo ? "green" : "red"
+            backgroundColor: estaAtivo ? "red" : "green"
         }
+       
         return(
             <button style={styles}>
+
                 Botão
             </button>
         )
